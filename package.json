@@ -8,13 +8,14 @@
     "dev": "nuxt dev"
   },
   "dependencies": {
-    "nuxt": "3.17.7",
-    "reflect-metadata": "0.2.2"
+    "nuxt": "3.17.7"
   },
   "devDependencies": {
     "@types/node": "22.16.3",
-    "sass": "1.89.2",
     "typescript": "5.8.3",
     "vue-tsc": "3.0.1"
+  },
+  "engines": {
+    "pnpm": ">=10"
   }
 }

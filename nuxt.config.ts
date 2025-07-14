@@ -5,7 +5,4 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true,
   },
-
-  // Disable server-side rendering
-  ssr: false,
 });
