@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "nuxt prepare",
-    "clean": "pnpx rimraf --glob node_modules **/dist **/node_modules **/build **/.nuxt **/.output",
+    "clean": "pnpx rimraf --glob node_modules .nuxt .output",
     "build": "nuxt build",
     "dev": "nuxt dev"
   },
